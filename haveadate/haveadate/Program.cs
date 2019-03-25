@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace haveadate
             int n;//出多少道题
             Console.WriteLine("请问今天出多少道题，boss？");
             n = int.Parse(Console.ReadLine());
-            Console.WriteLine("收到，题库如下，答案见文件 subject.txt 喔  >_< ");        
+            Console.WriteLine("收到，题库已经生成！  >_< ");        
             string question = "";
             //随机类对象
             _random random = new _random();
@@ -28,7 +29,12 @@ namespace haveadate
             Compute compute;
             //运算结果
             float res;
-            for(int i = 0; i < n; i++)
+            //文件url
+            string fileName1 = @"C:\Users\k\AchaoCalculator\works\homeworks.txt";
+            string fileName2 = @"C:\Users\k\AchaoCalculator\works\results.txt";
+            StreamWriter sw1 = new StreamWriter(fileName1);
+            StreamWriter sw2 = new StreamWriter(fileName2);          
+            for (int i = 0; i < n; i++)
             {
                 question = "";
                 float num;
@@ -60,15 +66,36 @@ namespace haveadate
                 compute = new Compute(question);
                 res = compute.run();
                 //若结果不为整数，此次操作无效
+                /*
+                Console.WriteLine("-------------------------------------------");
+                Console.WriteLine(res);
+                Console.WriteLine("-------------------------------------------");
+                */
                 if (Math.Abs(res - (int)res) != 0)
                 {
+                    /*
+                    Console.WriteLine("-------------------------------------------");
+                    Console.WriteLine(res);
+                    Console.WriteLine("-------------------------------------------");
+                    */
                     i--;
                     continue;
                 }
+                //Console.WriteLine("正确");
                 question += "=";
+                sw1.WriteLine(question);                
                 question += res;
-                Console.WriteLine(question);
-            }         
+                sw2.WriteLine(question);             
+                //Console.WriteLine(question);
+                
+            }
+            sw1.Flush();
+            sw2.Flush();
+            sw1.Close();
+            sw2.Flush();
+            /*compute = new Compute("71-97*23+5");
+            Console.WriteLine(compute.run());*/
+            Console.WriteLine(@"文件已生成url(C:\Users\k\AchaoCalculator\works) =_=");
             Console.ReadKey();
         }
     }
@@ -129,19 +156,23 @@ namespace haveadate
         public int Priority(char s)
         {
             switch (s)
-            {
-                case '(':
-                    return 3;
+            {               
                 case '*':
+                    return 2;
                 case '/':
                     return 2;
                 case '+':
+                    return 1;
                 case '-':
                     return 1;
                 default:
                     return 0;
             }
         }
+        /// <summary>
+        /// 测试数据： 71-97+23=-49？
+        /// </summary>
+        /// <returns></returns>
         public float run()
         {
             int i = 0;
@@ -160,14 +191,7 @@ namespace haveadate
                 }
                 else
                 {
-                    if (str[i] != '\0' && ((num.Count != 0) || (Priority(str[i]) > Priority(ch.Peek()))))
-                    {
-                        ch.Push(str[i]);
-                        i++;
-                        continue;
-                    }
-                   
-                    if ((str[i] == '\0' && ch.Count != 0) || Priority(str[i]) <= Priority(ch.Peek()))
+                    if (ch.Count != 0 && Priority(str[i]) <= Priority(ch.Peek()))
                     {
                         switch (ch.Pop())
                         {
@@ -189,9 +213,19 @@ namespace haveadate
                         continue;
                     }
 
+
+                    if (str[i] != '\0' && ((num.Count != 0) || (Priority(str[i]) > Priority(ch.Peek()))))
+                    {
+                        ch.Push(str[i]);
+                        i++;
+                        continue;
+                    }        
+                  
+
                 }
             }
             return num.Pop();
+            
         }
     }
 }

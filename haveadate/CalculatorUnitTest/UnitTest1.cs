@@ -11,9 +11,9 @@ namespace CalculatorUnitTest
         [TestMethod]
         public void TestMethod1()
         {
-            Compute compute = new Compute("3+2*5");
+            Compute compute = new Compute("3+5-2*3");
             string res = compute.run().ToString();
-            StringAssert.Contains("13", res);//StringAssert是个类
+            StringAssert.Contains("2", res);//StringAssert是个类
         }
     }
 }
