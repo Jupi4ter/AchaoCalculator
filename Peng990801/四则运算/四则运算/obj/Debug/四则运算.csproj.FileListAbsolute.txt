@@ -1,0 +1,7 @@
+C:\Users\killer\Desktop\四则运算\四则运算\bin\Debug\四则运算.exe.config
+C:\Users\killer\Desktop\四则运算\四则运算\bin\Debug\四则运算.exe
+C:\Users\killer\Desktop\四则运算\四则运算\bin\Debug\四则运算.pdb
+C:\Users\killer\Desktop\四则运算\四则运算\obj\Debug\四则运算.csprojAssemblyReference.cache
+C:\Users\killer\Desktop\四则运算\四则运算\obj\Debug\四则运算.csproj.CoreCompileInputs.cache
+C:\Users\killer\Desktop\四则运算\四则运算\obj\Debug\四则运算.exe
+C:\Users\killer\Desktop\四则运算\四则运算\obj\Debug\四则运算.pdb
