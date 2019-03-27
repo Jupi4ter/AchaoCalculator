@@ -29,13 +29,15 @@ namespace calculator.Tests
         public void SaveTest()
         {
             //判断结果为负数是否舍去
-            Assert.IsNull(Program.Save("3-2-3"));
+            Assert.IsNull(Program.Save("3-2-3", "3.00-2.00-3.00"));
             //判断结果为小数是否舍去
-            Assert.IsNull(Program.Save("3/5+2"));
+            //两个除法相加减会导致过程有小数但结果为整数的情况，
+            //以及除号位置导致的小数问题已经在代码中处理。
+            Assert.IsNull(Program.Save("3/5+2", "3.00/5.00+2.00"));
             //判断出现除零错误是否舍去
-            Assert.IsNull(Program.Save("1/0-1"));
+            Assert.IsNull(Program.Save("1/0-1","1.00/0.00-1.00"));
             //判断符合要求并保存的算式的结果是否正确
-            Assert.AreEqual(Program.Save("2+8/2"), (6).ToString());
+            Assert.AreEqual(Program.Save("2+8/2", "2.00+8.00/2.00"), (6).ToString());
         }
     }
 }

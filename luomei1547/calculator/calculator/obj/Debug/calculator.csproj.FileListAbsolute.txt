@@ -5,3 +5,10 @@ C:\Users\15476\Desktop\AchaoCalculator\luomei1547\calculator\calculator\obj\Debu
 C:\Users\15476\Desktop\AchaoCalculator\luomei1547\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
 C:\Users\15476\Desktop\AchaoCalculator\luomei1547\calculator\calculator\obj\Debug\calculator.exe
 C:\Users\15476\Desktop\AchaoCalculator\luomei1547\calculator\calculator\obj\Debug\calculator.pdb
+C:\Users\15476\Desktop\homework\AchaoCalculator\luomei1547\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\15476\Desktop\homework\AchaoCalculator\luomei1547\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\15476\Desktop\homework\AchaoCalculator\luomei1547\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\15476\Desktop\homework\AchaoCalculator\luomei1547\calculator\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\15476\Desktop\homework\AchaoCalculator\luomei1547\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\15476\Desktop\homework\AchaoCalculator\luomei1547\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\15476\Desktop\homework\AchaoCalculator\luomei1547\calculator\calculator\obj\Debug\calculator.pdb
