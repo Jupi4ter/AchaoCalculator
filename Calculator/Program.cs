@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {           
             int n = int.Parse(Console.ReadLine());
+            File.WriteAllText(@"g:file.txt", "");                             //先把文件的内容清空
             for (int i = 0; i < n;i++)
-            {
-                             
+            {        
                 int operatorNumber = GetRandomNumber(2, 3);                   //随机生成运算符的数量operatorNumber            
                 char[] operators = new char[operatorNumber];                  //定义操作符数组
                 int[] digitals = new int[operatorNumber + 1];                 //定义数字数组，数字数组的长度为操作符数组长度加一
@@ -30,7 +30,7 @@ namespace Calculator
         }
 
         //为操作符数组operators和数字数组digitals赋值
-        static void AssignCharactors(int operatorNumber,ref char[] operators, ref int[] digitals )
+        public static void AssignCharactors(int operatorNumber,ref char[] operators, ref int[] digitals )
         {
 
             digitals[0] = GetRandomNumber(0, 100);                            //由于可能要进行运算，所以在进入循环之前先为第一个数字赋值
@@ -76,8 +76,9 @@ namespace Calculator
                
         }
         //该函数用于判断计算过程中是否会出现小数
-        static bool IsDivisible(ref int first,char[] operators,int[] digitals,int recent)
+        public static bool IsDivisible(ref int first,char[] operators,int[] digitals,int recent)
         {
+
              first = recent;
             //找到第一个除号的下标
             for (; first>= 0; first--)
@@ -104,14 +105,14 @@ namespace Calculator
             return true;
         }
         //该函数用于最后的计算
-        static int Compute(string command)
+        public static int Compute(string command)
         {
             var result = new DataTable().Compute(command, null);              //通过得到的指令进行计算
             return int.Parse(result.ToString());
         }
 
         //得到随机的数
-        static int GetRandomNumber(int min, int max)
+        public static int GetRandomNumber(int min, int max)
         {
             var seed = Guid.NewGuid().GetHashCode();                         //设置随机数种子
             int randomrNumber = new Random(seed).Next(min,max+1);
@@ -119,7 +120,7 @@ namespace Calculator
         }
 
         //将得到的随机的数字和操作符生成command指令
-        static string GetCommand(char[] operators,int[] digitals)
+        public static string GetCommand(char[] operators,int[] digitals)
         {
             string command = "";
             int i = 0;
