@@ -11,7 +11,7 @@ namespace Part0
     {
         static void Main(string[] args)
         {
-            string filename = @"C:\00001\subject.txt";
+            string filename = @"D:subject.txt";
             Console.Write("请输入生成的算术数量:");
             StreamWriter fs = new StreamWriter(filename, true);
             int n = int.Parse(Console.ReadLine());
