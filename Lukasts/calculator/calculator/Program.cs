@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace calculator
 {
-    class Program
+    public  class Program
     {
+        public static int addtest(int a, int b)
+        {
+            return a + b;
+        }
         static void Main(string[] args)
         {
 
-
+            
             for (int i = 0; i < 20; i++)
             {
                 byte[] buffer = Guid.NewGuid().ToByteArray();
@@ -29,7 +33,7 @@ namespace calculator
                     num1 = random.Next(1, 100);
                     num2 = random.Next(1, 100);
                     num3 = random.Next(1, 100);
-                }
+                }//随机生成三个不相等的数。
 
 
 
@@ -48,7 +52,7 @@ namespace calculator
                         num1 = num2;
                
                         num2 = temp1;
-                    }
+                    }//如果被减数大于减数，交换两个的位置。
                     result = num1 - num2;
                 }
                 else if (num_ops1 == 3)
@@ -72,7 +76,7 @@ namespace calculator
 
                     }
                     result = num1 / num2;
-
+                    //判断第一个运算符
                 }
                 if (num_ops2 == 1)
                 {
