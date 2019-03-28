@@ -1,0 +1,7 @@
+F:\哈皮\AchaoCalculator\umoonn\Calculator\Calculator\bin\Debug\Calculator.exe.config
+F:\哈皮\AchaoCalculator\umoonn\Calculator\Calculator\bin\Debug\Calculator.exe
+F:\哈皮\AchaoCalculator\umoonn\Calculator\Calculator\bin\Debug\Calculator.pdb
+F:\哈皮\AchaoCalculator\umoonn\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+F:\哈皮\AchaoCalculator\umoonn\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+F:\哈皮\AchaoCalculator\umoonn\Calculator\Calculator\obj\Debug\Calculator.exe
+F:\哈皮\AchaoCalculator\umoonn\Calculator\Calculator\obj\Debug\Calculator.pdb
