@@ -10,9 +10,9 @@ namespace ConsoleApp1
     class calculation
     {
         //设aXbYcZd
-        private int[][] a;//计算数设为a/b 分子分母分开存储 默认a=0.b=1
-        private char[] X;
-        private char[] symbol = { '+', '-', '*', '/' };
+        public int[][] a;//计算数设为a/b 分子分母分开存储 默认a=0.b=1
+        public char[] X;
+        public char[] symbol = { '+', '-', '*', '/' };
         public calculation()
         {
 
@@ -65,7 +65,7 @@ namespace ConsoleApp1
         /// <param name="r">数字范围</param>
         /// <param name="pb">运算数输出形式</param>
         /// <returns>运算数计算形式</returns>
-        private void GetNumber(int[] a, int r, ref string pb)
+        public void GetNumber(int[] a, int r, ref string pb)
         {
             Random rd = new Random(Guid.NewGuid().GetHashCode());
             a[0] = rd.Next(0, r);
@@ -108,7 +108,7 @@ namespace ConsoleApp1
         /// <param name="a"></param>
         /// <param name="problem"></param>
         /// <param name="X"></param>
-        private void GetSymbol(int a, ref string problem, ref char X)
+        public void GetSymbol(int a, ref string problem, ref char X)
         {
             if (a != 0)
             {
@@ -148,7 +148,7 @@ namespace ConsoleApp1
         /// </summary>
         /// <param name="c">当前字符</param>
         /// <returns></returns>
-        private static int GetOperationLevel(char c)
+        public static int GetOperationLevel(char c)
         {
             switch (c)
             {
@@ -163,7 +163,7 @@ namespace ConsoleApp1
         /// 获取优先级最小的运算符
         /// </summary>
         /// <returns></returns>
-        private int GetMin(int s, int e, ref int j)
+        public int GetMin(int s, int e, ref int j)
         {
             int min = s;
 
@@ -179,7 +179,7 @@ namespace ConsoleApp1
             //运算符空，结束遍历
             return min;
         }
-        private void GetTree(int s, int e, TreeNode<Number> sym)
+        public void GetTree(int s, int e, TreeNode<Number> sym)
         {
             int j = 0;
             int min = GetMin(s, e, ref j);
@@ -209,7 +209,7 @@ namespace ConsoleApp1
         /// 将计算数相加，与其他计算式的相加值一样时舍去
         /// </summary>
         /// <returns></returns>
-        private int[] IsCommon()
+        public int[] IsCommon()
         {
             string s = "";
             LinkBinaryTree<Number> ic = new LinkBinaryTree<Number>();
@@ -246,9 +246,9 @@ namespace ConsoleApp1
     /// <typeparam name="T"></typeparam>
     public class TreeNode<T>
     {
-        private T data;               //数据域
-        private TreeNode<T> lChild;   //左孩子   树中一个结点的子树的根结点称为这个结点的孩子
-        private TreeNode<T> rChild;   //右孩子
+        public T data;               //数据域
+        public TreeNode<T> lChild;   //左孩子   树中一个结点的子树的根结点称为这个结点的孩子
+        public TreeNode<T> rChild;   //右孩子
 
         public TreeNode(T val, TreeNode<T> lp, TreeNode<T> rp)
         {
@@ -327,7 +327,7 @@ namespace ConsoleApp1
     }
     public class LinkBinaryTree<T>
     {
-        private TreeNode<T> head;       //头引用
+        public TreeNode<T> head;       //头引用
         public TreeNode<T> Head
         {
             get { return head; }
@@ -412,12 +412,12 @@ namespace ConsoleApp1
 
 
 
-        private List<int[]> num = new List<int[]>();
-        private List<char> sym = new List<char>();
+        public List<int[]> num = new List<int[]>();
+        public List<char> sym = new List<char>();
         char s;
         //后序遍历
         //遍历根结点的左子树->遍历根结点的右子树->根结点
-        private void postorder(TreeNode<Number> ptr, ref string problem)
+        public void postorder(TreeNode<Number> ptr, ref string problem)
         {
             if (IsEmpty())
             {
@@ -505,10 +505,20 @@ namespace ConsoleApp1
     }
 
 
-    class Program
+    public class Program
     {
-        private
-        static void Main(string[] args)
+        public static int Add(int num1, int num2)
+        {
+            
+            {
+                return num1 + num2;
+            }
+            
+               
+        }
+
+
+        public static void Main(string[] args)
         {
             int r = 10;
             int n = 1;
@@ -561,6 +571,7 @@ namespace ConsoleApp1
                 }
             }
             Console.ReadKey();
+
         }
     }
 }
