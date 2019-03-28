@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c4b3cf26-f2cb-4e9c-8b60-bbb189e7708b" name="cyc@CYC-PC 2019-03-28 12:37:04" runUser="cyc-PC\cyc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="268473a4-53f3-4156-b567-9db06bdf554a">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="cyc_CYC-PC 2019-03-28 12_37_04">
+      <DeploymentItem filename="C:\Users\cyc\Desktop\Calculator\xuyixiaowoaini\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-03-28T12:37:04.9217321+08:00" queuing="2019-03-28T12:37:04.9373322+08:00" start="2019-03-28T12:37:04.9373322+08:00" finish="2019-03-28T12:37:05.2805328+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MakeFormulaTest" storage="c:\users\cyc\desktop\calculator\xuyixiaowoaini\consoleapplication2\testproject2\bin\debug\testproject2.dll" id="25e188f6-53b7-f303-dfd5-11a0c1780463">
+      <Execution id="3e939158-4ca1-4d81-8652-d215f182ed6b" />
+      <TestMethod codeBase="C:/Users/cyc/Desktop/Calculator/xuyixiaowoaini/ConsoleApplication2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MakeFormulaTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="25e188f6-53b7-f303-dfd5-11a0c1780463" executionId="3e939158-4ca1-4d81-8652-d215f182ed6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3e939158-4ca1-4d81-8652-d215f182ed6b" testId="25e188f6-53b7-f303-dfd5-11a0c1780463" testName="MakeFormulaTest" computerName="CYC-PC" duration="00:00:00.0135379" startTime="2019-03-28T12:37:04.9685322+08:00" endTime="2019-03-28T12:37:05.2649327+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e939158-4ca1-4d81-8652-d215f182ed6b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

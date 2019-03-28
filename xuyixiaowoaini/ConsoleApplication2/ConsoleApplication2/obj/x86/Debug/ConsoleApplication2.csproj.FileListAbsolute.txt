@@ -1,0 +1,4 @@
+C:\Users\cyc\Desktop\Calculator\xuyixiaowoaini\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\cyc\Desktop\Calculator\xuyixiaowoaini\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\cyc\Desktop\Calculator\xuyixiaowoaini\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+C:\Users\cyc\Desktop\Calculator\xuyixiaowoaini\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb
