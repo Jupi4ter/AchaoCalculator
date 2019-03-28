@@ -1,0 +1,6 @@
+C:\Users\cdd13\OneDrive\文档\cddchen\Calculator-cplusplus\cddchen\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\cdd13\OneDrive\文档\cddchen\Calculator-cplusplus\cddchen\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\cdd13\OneDrive\文档\cddchen\Calculator-cplusplus\cddchen\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\cdd13\OneDrive\文档\cddchen\Calculator-cplusplus\cddchen\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\cdd13\OneDrive\文档\cddchen\Calculator-cplusplus\cddchen\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\cdd13\OneDrive\文档\cddchen\Calculator-cplusplus\cddchen\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
