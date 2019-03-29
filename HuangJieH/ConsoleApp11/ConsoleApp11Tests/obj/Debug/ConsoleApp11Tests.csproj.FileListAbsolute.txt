@@ -1,0 +1,9 @@
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\bin\Debug\ConsoleApp11Tests.dll
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\bin\Debug\ConsoleApp11Tests.pdb
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\obj\Debug\ConsoleApp11Tests.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\obj\Debug\ConsoleApp11Tests.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\obj\Debug\ConsoleApp11Tests.csproj.CopyComplete
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\obj\Debug\ConsoleApp11Tests.dll
+C:\Users\ASUS\source\repos\ConsoleApp11\ConsoleApp11Tests\obj\Debug\ConsoleApp11Tests.pdb
