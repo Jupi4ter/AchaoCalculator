@@ -8,11 +8,14 @@ using System.IO;
 
 namespace 四则运算生成器
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            subProduce(100);
+            int n = 0;
+            Console.WriteLine("需要生成多少道题目？");
+            n = int.Parse(Console.ReadLine());
+            subProduce(n);
         }
 
         /// <summary>
@@ -161,6 +164,7 @@ namespace 四则运算生成器
                 //将计算结果保存并生成一个新的四则运算
                 sb.num[0] = result_1;
                 sb.num.RemoveAt(1);
+                sb.symbol.RemoveAt(0);
                 return CalculateResult(sb);
             }
             return CalculateResult(sb);
@@ -170,7 +174,7 @@ namespace 四则运算生成器
     /// <summary>
     /// 自定义题目类
     /// </summary>
-    class Subject
+    public class Subject
     {
         public List<double> num;                //用于储存题目中的计算数
         public List<int> symbol;                //用于储存题目中的计算符号
