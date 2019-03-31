@@ -80,6 +80,8 @@ namespace work2
         public static void Main(string[] args)
         {
             calculator();
+
+            Console.ReadKey();
         }
         //写入文件到记事本
         public static bool Fwrite(String msg)
