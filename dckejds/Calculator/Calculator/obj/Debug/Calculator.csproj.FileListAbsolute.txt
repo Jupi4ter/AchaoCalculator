@@ -1,0 +1,7 @@
+E:\四则运算生成器\AchaoCalculator\dckejds\Calculator\Calculator\bin\Debug\Calculator.exe.config
+E:\四则运算生成器\AchaoCalculator\dckejds\Calculator\Calculator\bin\Debug\Calculator.exe
+E:\四则运算生成器\AchaoCalculator\dckejds\Calculator\Calculator\bin\Debug\Calculator.pdb
+E:\四则运算生成器\AchaoCalculator\dckejds\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+E:\四则运算生成器\AchaoCalculator\dckejds\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+E:\四则运算生成器\AchaoCalculator\dckejds\Calculator\Calculator\obj\Debug\Calculator.exe
+E:\四则运算生成器\AchaoCalculator\dckejds\Calculator\Calculator\obj\Debug\Calculator.pdb
