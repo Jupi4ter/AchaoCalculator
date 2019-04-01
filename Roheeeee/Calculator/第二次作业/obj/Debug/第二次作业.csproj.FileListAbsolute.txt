@@ -1,0 +1,7 @@
+C:\Users\鲜雨珂\Desktop\Calculator\Roheeeee\Calculator\第二次作业\bin\Debug\第二次作业.exe.config
+C:\Users\鲜雨珂\Desktop\Calculator\Roheeeee\Calculator\第二次作业\bin\Debug\第二次作业.exe
+C:\Users\鲜雨珂\Desktop\Calculator\Roheeeee\Calculator\第二次作业\bin\Debug\第二次作业.pdb
+C:\Users\鲜雨珂\Desktop\Calculator\Roheeeee\Calculator\第二次作业\obj\Debug\第二次作业.csprojAssemblyReference.cache
+C:\Users\鲜雨珂\Desktop\Calculator\Roheeeee\Calculator\第二次作业\obj\Debug\第二次作业.csproj.CoreCompileInputs.cache
+C:\Users\鲜雨珂\Desktop\Calculator\Roheeeee\Calculator\第二次作业\obj\Debug\第二次作业.exe
+C:\Users\鲜雨珂\Desktop\Calculator\Roheeeee\Calculator\第二次作业\obj\Debug\第二次作业.pdb
