@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="414f348c-53c8-4ab5-a6c7-42ece6a9c319" name="cyc@CYC-PC 2019-03-27 20:18:09" runUser="cyc-PC\cyc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="268473a4-53f3-4156-b567-9db06bdf554a">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="cyc_CYC-PC 2019-03-27 20_18_09">
+      <DeploymentItem filename="C:\Users\cyc\Desktop\Calculator\xuyixiaowoaini\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-03-27T20:18:09.2849706+08:00" queuing="2019-03-27T20:18:11.3297768+08:00" start="2019-03-27T20:18:11.4701771+08:00" finish="2019-03-27T20:18:12.3289804+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FormulaTest" storage="c:\users\cyc\desktop\calculator\xuyixiaowoaini\consoleapplication2\testproject2\bin\debug\testproject2.dll" id="106ec120-8ffe-ed78-37ab-9e71d87de5db">
+      <Execution id="f3ba52de-a8c0-45c8-8110-18e4b90affb7" />
+      <TestMethod codeBase="C:/Users/cyc/Desktop/Calculator/xuyixiaowoaini/ConsoleApplication2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FormulaTest" />
+    </UnitTest>
+    <UnitTest name="SolveTest" storage="c:\users\cyc\desktop\calculator\xuyixiaowoaini\consoleapplication2\testproject2\bin\debug\testproject2.dll" id="9727eff1-cbc6-b6f7-fed2-853d2548c645">
+      <Execution id="98f29a37-9438-4b10-9750-3eefa64bb1f2" />
+      <TestMethod codeBase="C:/Users/cyc/Desktop/Calculator/xuyixiaowoaini/ConsoleApplication2/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.UnitTest1, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SolveTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="106ec120-8ffe-ed78-37ab-9e71d87de5db" executionId="f3ba52de-a8c0-45c8-8110-18e4b90affb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9727eff1-cbc6-b6f7-fed2-853d2548c645" executionId="98f29a37-9438-4b10-9750-3eefa64bb1f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f3ba52de-a8c0-45c8-8110-18e4b90affb7" testId="106ec120-8ffe-ed78-37ab-9e71d87de5db" testName="FormulaTest" computerName="CYC-PC" duration="00:00:00.0169172" startTime="2019-03-27T20:18:11.5169771+08:00" endTime="2019-03-27T20:18:12.2509802+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3ba52de-a8c0-45c8-8110-18e4b90affb7">
+    </UnitTestResult>
+    <UnitTestResult executionId="98f29a37-9438-4b10-9750-3eefa64bb1f2" testId="9727eff1-cbc6-b6f7-fed2-853d2548c645" testName="SolveTest" computerName="CYC-PC" duration="00:00:00.0138668" startTime="2019-03-27T20:18:12.2509802+08:00" endTime="2019-03-27T20:18:12.2665802+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98f29a37-9438-4b10-9750-3eefa64bb1f2">
+    </UnitTestResult>
+  </Results>
+</TestRun>
