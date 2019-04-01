@@ -1,0 +1,31 @@
+﻿分析已开始。
+分析进程 ID 10884 (ConsoleApplication8)。
+正在启动数据收集。输入文件是 c:\users\哔哔哔狗狗\documents\visual studio 2012\Projects\ConsoleApplication8\ConsoleApplication8190329.vspx
+探查器即将停止。
+����ֹͣ�����ռ���
+探查器即将停止。
+正在合并收集数据。请稍候...
+数据保存于文件 c:\users\哔哔哔狗狗\documents\visual studio 2012\Projects\ConsoleApplication8\ConsoleApplication8190329.vspx 中
+分析已完成。
+̽����δ���ڻ״̬��
+分析已完成。
+未能加载 C:\Windows\SysWOW64\ntdll.dll 的符号
+未能加载 C:\Windows\SysWOW64\kernel32.dll 的符号
+未能加载 C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll 的符号
+未能加载 C:\Windows\SysWOW64\mscoree.dll 的符号
+未能加载 C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll 的符号
+未能加载 C:\Windows\assembly\NativeImages_v4.0.30319_32\mscorlib\e8980cc30db74aebb06ed60c8b93c295\mscorlib.ni.dll 的符号
+未能加载 C:\Windows\SysWOW64\KernelBase.dll 的符号
+未能加载 C:\Windows\System32\ntdll.dll 的符号
+未能加载 C:\Windows\System32\wow64.dll 的符号
+未能加载 C:\Windows\System32\wow64cpu.dll 的符号
+已加载 C:\Users\哔哔哔狗狗\Documents\Visual Studio 2012\Projects\ConsoleApplication8\ConsoleApplication8\bin\Debug\ConsoleApplication8.exe 的符号
+未能加载 C:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll 的符号
+未能加载 C:\Windows\SysWOW64\ws2_32.dll 的符号
+未能加载 C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Data\6482cd2b6054ce6a769b2248e99c79ad\System.Data.ni.dll 的符号
+未能加载 C:\Windows\SysWOW64\msvcr120_clr0400.dll 的符号
+未能加载 C:\Windows\SysWOW64\combase.dll 的符号
+未能加载 C:\Windows\SysWOW64\rpcrt4.dll 的符号
+未能加载 C:\Windows\SysWOW64\bcryptprimitives.dll 的符号
+符号信息已保存到报告。
+分析完成。
