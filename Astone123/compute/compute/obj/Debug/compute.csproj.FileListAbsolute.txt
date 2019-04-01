@@ -1,0 +1,7 @@
+F:\vs\github\AchaoCalculator\Astone123\compute\compute\bin\Debug\compute.exe.config
+F:\vs\github\AchaoCalculator\Astone123\compute\compute\bin\Debug\compute.exe
+F:\vs\github\AchaoCalculator\Astone123\compute\compute\bin\Debug\compute.pdb
+F:\vs\github\AchaoCalculator\Astone123\compute\compute\obj\Debug\compute.csprojAssemblyReference.cache
+F:\vs\github\AchaoCalculator\Astone123\compute\compute\obj\Debug\compute.csproj.CoreCompileInputs.cache
+F:\vs\github\AchaoCalculator\Astone123\compute\compute\obj\Debug\compute.exe
+F:\vs\github\AchaoCalculator\Astone123\compute\compute\obj\Debug\compute.pdb
