@@ -1,0 +1,7 @@
+C:\Users\95388\Desktop\C#\四则运算生成器\CalculatorUnitTest\bin\Debug\CalculatorUnitTest.dll
+C:\Users\95388\Desktop\C#\四则运算生成器\CalculatorUnitTest\bin\Debug\CalculatorUnitTest.pdb
+C:\Users\95388\Desktop\C#\四则运算生成器\CalculatorUnitTest\bin\Debug\四则运算生成器.exe
+C:\Users\95388\Desktop\C#\四则运算生成器\CalculatorUnitTest\bin\Debug\四则运算生成器.pdb
+C:\Users\95388\Desktop\C#\四则运算生成器\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\95388\Desktop\C#\四则运算生成器\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.dll
+C:\Users\95388\Desktop\C#\四则运算生成器\CalculatorUnitTest\obj\Debug\CalculatorUnitTest.pdb

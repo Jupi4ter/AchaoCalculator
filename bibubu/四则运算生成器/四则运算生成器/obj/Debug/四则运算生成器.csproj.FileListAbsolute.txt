@@ -1,0 +1,6 @@
+C:\Users\95388\Desktop\C#\四则运算生成器\四则运算生成器\bin\Debug\四则运算生成器.exe.config
+C:\Users\95388\Desktop\C#\四则运算生成器\四则运算生成器\bin\Debug\四则运算生成器.exe
+C:\Users\95388\Desktop\C#\四则运算生成器\四则运算生成器\bin\Debug\四则运算生成器.pdb
+C:\Users\95388\Desktop\C#\四则运算生成器\四则运算生成器\obj\Debug\四则运算生成器.csprojResolveAssemblyReference.cache
+C:\Users\95388\Desktop\C#\四则运算生成器\四则运算生成器\obj\Debug\四则运算生成器.exe
+C:\Users\95388\Desktop\C#\四则运算生成器\四则运算生成器\obj\Debug\四则运算生成器.pdb
