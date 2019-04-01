@@ -1,0 +1,7 @@
+C:\Users\Xavier\source\repos\MlllXavier\MlllXavier\bin\Debug\MlllXavier.exe.config
+C:\Users\Xavier\source\repos\MlllXavier\MlllXavier\bin\Debug\MlllXavier.exe
+C:\Users\Xavier\source\repos\MlllXavier\MlllXavier\bin\Debug\MlllXavier.pdb
+C:\Users\Xavier\source\repos\MlllXavier\MlllXavier\obj\Debug\MlllXavier.csprojAssemblyReference.cache
+C:\Users\Xavier\source\repos\MlllXavier\MlllXavier\obj\Debug\MlllXavier.csproj.CoreCompileInputs.cache
+C:\Users\Xavier\source\repos\MlllXavier\MlllXavier\obj\Debug\MlllXavier.exe
+C:\Users\Xavier\source\repos\MlllXavier\MlllXavier\obj\Debug\MlllXavier.pdb
