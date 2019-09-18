@@ -1,0 +1,6 @@
+F:\AchaoCalculator\zx1355593002\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+F:\AchaoCalculator\zx1355593002\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+F:\AchaoCalculator\zx1355593002\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+F:\AchaoCalculator\zx1355593002\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+F:\AchaoCalculator\zx1355593002\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+F:\AchaoCalculator\zx1355593002\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
